@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+
+/* cabecalho */
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #13c7ae;
+}
+
+.logo a {
+    width: 221px;
+    height: 48px;
+    float: left;
+}
+
+.cabecalho form {
+    width: 30%;
+    float: right;
+}
+
+.cabecalho input[type="text"]{
+    width: 80%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.cabecalho button {
+    width: 20%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #0cae98;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+/* MENU */
+
+.menu {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: #fff;
+}
+
+/* Social icons*/
+
+div a img {
+    width: 20px;
+    height: 20px;
+  
+} 
+
+.social-icons {
+    float: right;
+}
+
+.social-icons a {
+    color: #fff;
+    float: left;
+    margin-left: 12px;
+}
+
+/*Principal*/
+
+.principal {
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+ 
+.sobre {
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.sobre h2 {
+    margin-bottom: 15px;
+}
+
+.sobre img {
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;
+}
+
+/*SIDEBAR */
+
+.onde-estamos {
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+
+.onde-estamos h2 {
+    margin-bottom: 5px;
+}
+
+.onde-estamos li {
+    color: #777;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+/*Newsletter*/
+
+.newsletter {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 50px 8%;
+}
+
+.newsletter h3 {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.newsletter p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.newsletter form {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.newsletter form input {
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: initial;
+    float: left;
+}
+
+.newsletter button {
+    width: 18%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border: 5px;
+    float: right;
+    cursor: pointer;
+}
+
+/*Rodape*/
+
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: #13c7ae;
+    padding: 20px 8%;
+}
+
+.rodape p {
+    color: #fff;
+}
